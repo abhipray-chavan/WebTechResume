@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0.2,0,0,0)), url(sunset.jpg);
+  color: white;
+  font-size: 17px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Yusei Magic', sans-serif;
+  color: #ccff33;
+}
+
+img {
+  height:650px;
+  width :650px;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.copyright2 {
+position: absolute;
+width: 100%;
+color: white;
+line-height: 60px;
+font-size: 1em;
+text-align: center;
+bottom:auto;
+}

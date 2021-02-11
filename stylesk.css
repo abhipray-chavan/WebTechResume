@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #00001a;
+  color: white;
+  font-size: 17px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'verdana', sans-serif;
+  color: #ccff33;
+}
+  
+    .skill { 
+        background-color:#E21717; 
+        color: white; 
+        padding: 0.5%; 
+        text-align: center; 
+        font-size: 10px; 
+        border-radius: 8px; 
+    } 
+  
+    .html { 
+        width: 80%; 
+    } 
+  
+    .css { 
+        width: 75%; 
+    } 
+
+    .js { 
+        width: 45%; 
+    } 
+
+    .java { 
+        width: 60%; 
+    } 
+  
+    .python { 
+        width: 35%; 
+    }
+  
+    .php { 
+        width: 10%; 
+    }
+
+ #certifications {
+  float: right;
+}
